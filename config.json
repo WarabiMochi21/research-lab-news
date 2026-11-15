@@ -1,0 +1,18 @@
+{
+  "server_name": "Research Lab",
+  "max_age_hours": 24,
+  "max_posts_per_run": 2,
+  "max_posts_per_day": 12,
+  "min_score": 2,
+  "keywords": {
+    "earnings": 3, "revenue": 2, "guidance": 3, "inflation": 3,
+    "interest rate": 3, "fomc": 4, "federal funds": 4, "employment": 2,
+    "payroll": 3, "gdp": 3, "merger": 3, "acquisition": 3,
+    "nvidia": 2, "microsoft": 2, "apple": 2, "amazon": 2,
+    "alphabet": 2, "tesla": 2, "s&p": 2, "nasdaq": 2, "tariff": 2
+  },
+  "feeds": [
+    {"name": "Federal Reserve", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "primary": true},
+    {"name": "CNBC Top News", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "primary": false}
+  ]
+}

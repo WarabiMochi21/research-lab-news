@@ -1,0 +1,71 @@
+name: Research Lab News
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+    inputs:
+      send:
+        description: 'Kirim ke Discord (false = preview saja)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+concurrency:
+  group: research-lab-news
+  cancel-in-progress: false
+
+jobs:
+  news:
+    if: github.event_name == 'workflow_dispatch' || vars.NEWS_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test before processing
+        run: python -m unittest discover -s tests -v
+      - name: Load persistent delivery history
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Research Lab News'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          status=0
+          git ls-remote --exit-code --heads origin research-state >/dev/null || status=$?
+          if [ "$status" -eq 0 ]; then
+            git fetch origin research-state --depth=1
+            git worktree add -B research-state .state FETCH_HEAD
+          elif [ "$status" -eq 2 ]; then
+            git worktree add --detach .state HEAD
+            git -C .state switch --orphan research-state
+          else
+            echo 'Cannot read persistent state; aborting.'
+            exit 1
+          fi
+      - name: Collect and prepare news
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_CHANNEL_ID: ${{ vars.DISCORD_CHANNEL_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          SEND: ${{ github.event_name == 'schedule' || inputs.send }}
+        shell: bash
+        run: |
+          if [ "$SEND" = 'true' ]; then
+            python bot.py --send --git-sync
+          else
+            python bot.py
+          fi
+      - name: Save preview and run report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-lab-preview-${{ github.run_id }}
+          path: output/
+          if-no-files-found: ignore
+          retention-days: 7
