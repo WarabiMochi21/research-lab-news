@@ -1,0 +1,52 @@
+{
+  "id": "f9f0c603b44801f67789114def5224d1ba60929bd4df830f4da6988fd45814fb",
+  "headline_id": "0bfc4fae41bb0bf35110686eeedbfc4eff68c59f1acfcf31e3bc7d0b9e7a538d",
+  "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+  "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+  "description": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+  "published": "2026-11-14T15:50:43+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-15T11:17:52.123808+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Judul dari sumber**\nHow Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts\n\n**Draft caption Canva (template, belum diringkas AI)**\nCNBC Top News menerbitkan berita berjudul: How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts. Baca sumber sebelum menambahkan angka, konteks, atau dampak pasar.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+        "timestamp": "2026-11-14T15:50:43+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-14T15:50:43+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html"
+          }
+        ],
+        "footer": {
+          "text": "HEADLINE ALERT — mode tanpa API AI"
+        }
+      }
+    ]
+  },
+  "ai_used": false
+}
