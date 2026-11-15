@@ -59,7 +59,7 @@ jobs:
           if [ "$SEND" = 'true' ]; then
             python bot.py --send --git-sync
           else
-            python bot.py
+            python bot.py --state-dir .preview-state
           fi
       - name: Save preview and run report
         if: always()
