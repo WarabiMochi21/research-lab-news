@@ -1,0 +1,52 @@
+{
+  "id": "f0c483dcb89de97dc1f85478a965357d5b93c95df7adb3b43103d36354f4aae0",
+  "headline_id": "de7a65a3499bf72da2b725f95253b801c8e8fcbf7ec7e99790f5fa55dba329ef",
+  "title": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+  "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+  "description": "Democrats advocated taxing high earners to shore up Social Security in the runup to the midterms. Plus, a senior deduction is slated to expire in two years.",
+  "published": "2026-11-15T14:30:01+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 3,
+  "retrieved": "2026-11-15T15:16:24.027369+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Social Security and Tax Changes Post-Midterms**\nAccording to an RSS report, Democrats advocated taxing high earners to shore up Social Security in the runup to the midterms. Additionally, a senior deduction is slated to expire in two years. This is based solely on the RSS headline and description; the full article was not fetched. This is a single source and not independent confirmation. Specific figures, dates, quotes, context, causes, projections, and investment recommendations are not provided in the source.\n\n**Draft caption Canva**\nReported Facts: - Democrats advocated taxing high earners to shore up Social Security leading up to the midterms. - A senior deduction is slated to expire in two years. - Source: CNBC Top News RSS feed. Items to Verify: - Full details of the proposed tax changes and their legislative status. - Exact timeline and conditions regarding the expiring senior deduction. Note: This summary is based exclusively on the provided RSS headline and description. The full article was not read. This represents a single source, not independent confirmation. No specific numbers, dates, quotes, context, causes, projections, or investment recommendations are included as evidence is limited.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+        "timestamp": "2026-11-15T14:30:01+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-15T14:30:01+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true
+}

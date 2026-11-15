@@ -35,6 +35,11 @@
       "attempted_at": "2026-11-15T11:17:52.240100+00:00",
       "message_id": "1571484384085811331",
       "sent_at": "2026-11-15T11:17:54.061480+00:00"
+    },
+    "f0c483dcb89de97dc1f85478a965357d5b93c95df7adb3b43103d36354f4aae0": {
+      "headline_id": "de7a65a3499bf72da2b725f95253b801c8e8fcbf7ec7e99790f5fa55dba329ef",
+      "status": "pending",
+      "attempted_at": "2026-11-15T15:16:25.169680+00:00"
     }
   }
 }
