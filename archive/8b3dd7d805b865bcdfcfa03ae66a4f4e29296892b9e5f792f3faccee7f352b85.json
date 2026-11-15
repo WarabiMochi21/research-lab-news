@@ -1,0 +1,52 @@
+{
+  "id": "8b3dd7d805b865bcdfcfa03ae66a4f4e29296892b9e5f792f3faccee7f352b85",
+  "headline_id": "c35f8a641a759cecb9c9680708fe207892ff84d633bdf44df989601d2b5af513",
+  "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+  "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+  "description": "The Singapore-based cloud computing company has faced heightened scrutiny since reports linked Nvidia's Jensen Huang to former Megaspeed executive Alice Huang.",
+  "published": "2026-11-15T08:34:46+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-15T11:09:51.740110+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Judul dari sumber**\nMegaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business\n\n**Draft caption Canva (template, belum diringkas AI)**\nCNBC Top News menerbitkan berita berjudul: Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business. Baca sumber sebelum menambahkan angka, konteks, atau dampak pasar.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+        "timestamp": "2026-11-15T08:34:46+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-15T08:34:46+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
+          }
+        ],
+        "footer": {
+          "text": "HEADLINE ALERT — mode tanpa API AI"
+        }
+      }
+    ]
+  },
+  "ai_used": false
+}
