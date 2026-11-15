@@ -209,8 +209,8 @@ def run(args):
         if os.getenv('GEMINI_API_KEY'):
             try:
                 draft=ai_draft(item)
-            except Exception:
-                print('AI unavailable or invalid output; using labelled headline-only fallback.')
+            except Exception as error:
+                print('AI failed:', type(error).__name__, 'HTTP status:', getattr(error, 'code', 'N/A'))
         payload=format_message(item,draft)
         record=dict(item, payload=payload, ai_used=bool(draft))
         atomic_json(output/(item['id']+'.json'),record)
