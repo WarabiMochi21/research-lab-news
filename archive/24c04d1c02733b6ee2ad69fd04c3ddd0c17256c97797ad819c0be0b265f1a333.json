@@ -1,0 +1,52 @@
+{
+  "id": "24c04d1c02733b6ee2ad69fd04c3ddd0c17256c97797ad819c0be0b265f1a333",
+  "headline_id": "454cd0e539e8c721f757e4e547b71af2c4730c49c6facff01855fdd46722fe2e",
+  "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+  "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+  "description": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
+  "published": "2026-11-14T18:48:39+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 6,
+  "retrieved": "2026-11-15T11:03:11.056359+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Judul dari sumber**\nNvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio\n\n**Draft caption Canva (template, belum diringkas AI)**\nCNBC Top News menerbitkan berita berjudul: Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio. Baca sumber sebelum menambahkan angka, konteks, atau dampak pasar.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+        "timestamp": "2026-11-14T18:48:39+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-14T18:48:39+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html"
+          }
+        ],
+        "footer": {
+          "text": "HEADLINE ALERT — mode tanpa API AI"
+        }
+      }
+    ]
+  },
+  "ai_used": false
+}
