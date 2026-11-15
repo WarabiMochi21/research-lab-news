@@ -106,7 +106,20 @@ Keluarkan JSON dengan tiga string: headline (maks 100 karakter), summary (maks 5
 caption berisi draft deskripsi Canva, bukan instruksi desain. Pisahkan fakta yang dilaporkan dari hal yang perlu dicek.
 Tidak perlu URL karena akan ditambahkan program. Data sumber:\n''' + json.dumps(item,ensure_ascii=False)
     body={'contents':[{'parts':[{'text':prompt}]}], 'generationConfig':{'temperature':0.1,'maxOutputTokens':650,'responseMimeType':'application/json'}}
-    result=json.loads(http('https://generativelanguage.googleapis.com/v1beta/models/'+model+':generateContent',body,{'x-goog-api-key':key}))
+        for attempt in range(3):
+        try:
+            result = json.loads(http(
+                'https://generativelanguage.googleapis.com/v1beta/models/'
+                + model + ':generateContent',
+                body,
+                {'x-goog-api-key': key}
+            ))
+            break
+        except HTTPError as error:
+            if error.code not in (502, 503, 504) or attempt == 2:
+                raise
+            print('AI temporarily unavailable; retrying...')
+            time.sleep(5 * (attempt + 1))
     text=''.join(p.get('text','') for p in result['candidates'][0]['content']['parts'])
     parsed=json.loads(text)
     limits={'headline':100,'summary':550,'caption':750}
