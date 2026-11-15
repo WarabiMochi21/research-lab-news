@@ -1,0 +1,52 @@
+{
+  "id": "8f94ce73667c3acef45c3645d3163eca0cdb29e0a54dc915f5a8637aadd50ff0",
+  "headline_id": "a8edca658a9559d715cf867e17c12f0cf5b45168cc157989e4d06b36a332aa62",
+  "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+  "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+  "description": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+  "published": "2026-11-14T12:00:01+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 3,
+  "retrieved": "2026-11-15T11:09:51.740110+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Judul dari sumber**\nEric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home\n\n**Draft caption Canva (template, belum diringkas AI)**\nCNBC Top News menerbitkan berita berjudul: Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home. Baca sumber sebelum menambahkan angka, konteks, atau dampak pasar.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+        "timestamp": "2026-11-14T12:00:01+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-14T12:00:01+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
+          }
+        ],
+        "footer": {
+          "text": "HEADLINE ALERT — mode tanpa API AI"
+        }
+      }
+    ]
+  },
+  "ai_used": false
+}
