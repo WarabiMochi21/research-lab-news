@@ -1,0 +1,56 @@
+{
+  "id": "0abe3390c84ef1d802c365ca713b989152f88f2b5d75d4110dadb127a2cce7b4",
+  "headline_id": "66d6eea68d52b84cc59b8db1f56f0ab9447910d8dacfffed590882034ab4f964",
+  "title": "Nvidia Fallout, Anthropic Listing Squeeze Asian Chip Stocks Anew",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew",
+  "description": "Asia’s two chip-heavy stock markets came under renewed pressure on Monday, tracking US weakness amid Nvidia Corp.’s turmoil and as investors made room for Anthropic PBC’s much-anticipated share sale.",
+  "published": "2026-11-16T06:51:43+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T07:24:36.943405+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Asian Chip Stocks Face Fresh Pressure From Nvidia Fallout**\nAsia's chip-heavy stock markets faced renewed downward pressure on Monday, tracking US weakness driven by Nvidia Corp.'s turmoil. Investors were also adjusting positions ahead of Anthropic PBC's anticipated share sale. This summary is based solely on the provided RSS description; the full article was not fetched. Evidence is limited to this single source, so further independent confirmation is not yet available.\n\n**Draft caption Canva**\nReported Facts: Asia's two chip-heavy stock markets faced renewed pressure on Monday, tracking US weakness amid Nvidia Corp.'s turmoil and investor repositioning for Anthropic PBC's share sale. This is derived from a single RSS source; the full article was not fetched. Things to Verify: Confirm the specific market indices affected, the exact scale of the downturn, and details regarding the Anthropic share sale. As this represents a single source, independent confirmation is not yet available and specific investment recommendations or projections are not provided.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew",
+        "timestamp": "2026-11-16T06:51:43+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T06:51:43+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-fallout-anthropic-listing-squeeze-asian-chip-stocks-anew"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://0abe3390c84ef1d802c365ca713b989152f88f2b5d75d4110dadb127a2cce7b4.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "0abe3390c84ef1d802c365ca713b989152f88f2b5d75d4110dadb127a2cce7b4.png"
+}
