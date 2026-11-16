@@ -1,0 +1,52 @@
+{
+  "id": "159332a91e8d44d64dda16c66bb8fd90d943bc34d402ed875d262f74931160c0",
+  "headline_id": "ee94a25d725ad8240b2468749aecb5c8fe901a9dd19ce613b6cc8b048e4e052a",
+  "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+  "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+  "description": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+  "published": "2026-11-15T19:58:21+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T02:57:17.035159+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Lutnick faces scrutiny over Nvidia ties following CEO resignation**\nCommerce Secretary Howard Lutnick is facing renewed scrutiny regarding his family's financial ties to Nvidia, following Jensen Huang's resignation as CEO. According to the source description, a firm belonging to Lutnick's sons has ties to the chipmaker. This information is based solely on the provided RSS summary; the full article was not fetched and this represents a single source without independent confirmation. No investment recommendations or projections are provided.\n\n**Draft caption Canva**\nReported Fact: Jensen Huang has resigned as Nvidia CEO, bringing renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker, specifically involving a firm belonging to Lutnick's sons. Things to Verify: Further details regarding the nature and extent of the financial ties between Lutnick's sons' firm and Nvidia, as well as any official statements from the involved parties. Note: This is based on a single source RSS description; the full article was not fetched and this is not an independent confirmation. No investment recommendations, financial projections, or unverified figures are included.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+        "timestamp": "2026-11-15T19:58:21+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-15T19:58:21+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true
+}
