@@ -1,0 +1,56 @@
+{
+  "id": "fedbc7d20c77e173d070cbc3f26e6155d50603ecee72564991c274bdcdac4e7b",
+  "headline_id": "9a0a058131f9af16433706974f680fb135cc4a3dd111c7229e50bc8aea8eff25",
+  "title": "Stocks decline in Asia as investor concerns over Nvidia fallout extend into another week",
+  "url": "https://abcnews.com/Business/wireStory/stocks-decline-asia-investor-concerns-nvidia-fallout-extend-138169919",
+  "description": "Asian shares have mostly declined as investors’ worries over the future of the artificial intelligence trade extend into another week following Nvidia’s fallout",
+  "published": "2026-11-16T06:29:22+00:00",
+  "publisher": "ABC News Business",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T06:38:40.542840+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Asian Stocks Decline Amid Continuing Nvidia Fallout Concerns**\nAsian shares mostly declined as investor worries regarding the future of the artificial intelligence trade extended into another week following the fallout from Nvidia. This report is based solely on the provided RSS description; the full article was not fetched. Evidence is currently limited to this single source, so it is not an independent confirmation. No specific financial figures, dates, quotes, context, or investment recommendations are available.\n\n**Draft caption Canva**\nReported Facts to Verify: Asian shares mostly declined; investor worries over the future of the artificial intelligence trade extended into another week following Nvidia's fallout. Items to Check: Context surrounding the Nvidia fallout, specific market data, and broader impacts on US equities. Note: This is based on a single RSS source and is not an independent confirmation. Full article not fetched. No investment recommendations or projections provided.",
+        "color": 4486642,
+        "url": "https://abcnews.com/Business/wireStory/stocks-decline-asia-investor-concerns-nvidia-fallout-extend-138169919",
+        "timestamp": "2026-11-16T06:29:22+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "ABC News Business",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T06:29:22+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://abcnews.com/Business/wireStory/stocks-decline-asia-investor-concerns-nvidia-fallout-extend-138169919"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://fedbc7d20c77e173d070cbc3f26e6155d50603ecee72564991c274bdcdac4e7b.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "fedbc7d20c77e173d070cbc3f26e6155d50603ecee72564991c274bdcdac4e7b.png"
+}
