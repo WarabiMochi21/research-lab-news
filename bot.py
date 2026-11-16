@@ -81,7 +81,7 @@ def select_items(items, state, config, now=None):
     room = min(config['max_posts_per_run'], max(0,config['max_posts_per_day']-used))
     seen_titles = {v['headline_id'] for v in state['items'].values()}
     selected, seen_ids = [], set(state['items'])
-    for item in sorted(items, key=lambda x:(x['score'],x['published']), reverse=True):
+    for item in sorted(items, key=lambda x:x['published'], reverse=True):
         if len(selected) >= room:
             break
         if item['score'] < config['min_score'] or item['id'] in seen_ids or item['headline_id'] in seen_titles:
