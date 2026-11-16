@@ -1,0 +1,56 @@
+{
+  "id": "4ee3901ceac15e852140a1d716d2af6cf0546693c209bac807ec54b2b687c884",
+  "headline_id": "90340f13b460f0f19b041dc3d4fa4109c02209261b7914fff736dc98364a9763",
+  "title": "YTL Power Scrutinized Amid Nvidia Turmoil, Alleged China Links",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-16/malaysia-ytl-power-scrutinized-amid-nvidia-turmoil-alleged-china-links",
+  "description": "YTL Power International shares took a breather Monday after their worst weekly selloff in nearly two years as turmoil surrounding Nvidia Corp. and allegations the Malaysian utility has links to Chinese-connected firms cast a shadow over its artificial intelligence business.",
+  "published": "2026-11-16T06:52:36+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T07:24:36.943405+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**YTL Power Shares Under Scrutiny Amid Nvidia Turmoil**\nYTL Power International shares stabilized on Monday following their worst weekly selloff in nearly two years. The pressure stems from turmoil surrounding Nvidia Corp. and allegations that the Malaysian utility has links to Chinese-connected firms, casting a shadow over its artificial intelligence business. This is based solely on RSS data; the full article was not read and this is a single source without independent confirmation.\n\n**Draft caption Canva**\nReported Facts: - YTL Power International shares stabilized Monday after their worst weekly selloff in nearly two years. - Market pressure is linked to Nvidia Corp. turmoil and allegations of connections to Chinese-connected firms affecting its AI business. Items to Verify: - Details regarding the nature of the alleged links to Chinese-connected firms. - Specific impacts on YTL Power's artificial intelligence operations and financials. Note: This summary is based strictly on initial RSS data. The full article was not fetched, and this single source requires independent confirmation. No investment recommendations or projections are provided.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-16/malaysia-ytl-power-scrutinized-amid-nvidia-turmoil-alleged-china-links",
+        "timestamp": "2026-11-16T06:52:36+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T06:52:36+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-16/malaysia-ytl-power-scrutinized-amid-nvidia-turmoil-alleged-china-links"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://4ee3901ceac15e852140a1d716d2af6cf0546693c209bac807ec54b2b687c884.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "4ee3901ceac15e852140a1d716d2af6cf0546693c209bac807ec54b2b687c884.png"
+}
