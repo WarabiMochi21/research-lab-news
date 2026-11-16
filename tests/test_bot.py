@@ -38,7 +38,7 @@ class BotTests(unittest.TestCase):
         self.assertEqual(len(bot.select_items([first,second],{'items':{}},CONFIG,NOW)),1)
 
     def test_daily_budget(self):
-        range(CONFIG['max_posts_per_day'])
+        state={'items':{str(i):{'headline_id':str(i),'attempted_at':NOW.isoformat()} for i in range(CONFIG['max_posts_per_day'])}}
         self.assertEqual(bot.select_items([self.item()],state,CONFIG,NOW),[])
 
     def test_payload_labels_and_mentions(self):
