@@ -1,0 +1,52 @@
+{
+  "id": "815758434345f24770caa87498ab6e04e630d2dbd2274ab2afc783dc9350f781",
+  "headline_id": "fe8795c1cafb05e594c4584a25ee78718b5924dedfd38b07abc38d273b10fcde",
+  "title": "What I know and respect about Colette Kress, the person now leading Nvidia",
+  "url": "https://www.cnbc.com/investingclub/2026/11/15/jim-cramer-nvidia-colette-kress-jensen-huang.html",
+  "description": "Colette Kress is the steady hand that Nvidia needs in charge during this turbulent time.",
+  "published": "2026-11-15T17:14:17+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T02:57:17.035159+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Research Lab: Colette Kress Leading Nvidia**\nAccording to the provided RSS description, Colette Kress is described as the steady hand that Nvidia needs in charge during this turbulent time. This is based solely on the available RSS data; full article text has not been fetched or reviewed. Evidence is currently limited to this single source, not independent confirmation. No investment recommendations, projections, or specific figures are provided.\n\n**Draft caption Canva**\nReported Facts: - Colette Kress is leading Nvidia. - She is described as a steady hand needed during turbulent times. Items to Verify: - Context regarding Nvidia's leadership transition and market conditions. - Full details and commentary from the original source. Note: This update is based on a single RSS source and does not constitute independent confirmation or investment advice.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/investingclub/2026/11/15/jim-cramer-nvidia-colette-kress-jensen-huang.html",
+        "timestamp": "2026-11-15T17:14:17+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-15T17:14:17+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/investingclub/2026/11/15/jim-cramer-nvidia-colette-kress-jensen-huang.html"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true
+}
