@@ -16,6 +16,8 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 import xml.etree.ElementTree as ET
 
+from news_card import render_card, post_image
+
 UTC = timezone.utc
 ROOT = Path(__file__).resolve().parent
 
@@ -158,11 +160,11 @@ def verify_destination(url, expected):
     if str(webhook.get('channel_id')) != expected:
         raise ValueError('Webhook channel does not match DISCORD_CHANNEL_ID; no post was sent.')
 
-def deliver(url,payload):
+def deliver(url,payload,image_path=None):
     # A timeout may mean Discord accepted the message. Never blindly resend it.
     for _ in range(3):
         try:
-            result=json.loads(http(url+'?wait=true',payload))
+            result=(post_image(url+'?wait=true',payload,image_path) if image_path else json.loads(http(url+'?wait=true',payload)))
             if not result.get('id'):
                 raise ValueError('Missing delivery receipt.')
             return result['id']
@@ -225,7 +227,13 @@ def run(args):
             except Exception as error:
                 print('AI failed:', type(error).__name__, 'HTTP status:', getattr(error, 'code', 'N/A'))
         payload=format_message(item,draft)
-        record=dict(item, payload=payload, ai_used=bool(draft))
+        image_path=None
+        try:
+            image_path=render_card(item,draft,output/(item['id']+'.png'))
+            payload['embeds'][0]['image']={'url':'attachment://'+image_path.name}
+        except Exception as error:
+            print('Image unavailable; sending text only:', type(error).__name__, 'HTTP status:', getattr(error, 'code', 'N/A'))
+        record=dict(item, payload=payload, ai_used=bool(draft), image_file=image_path.name if image_path else None)
         atomic_json(output/(item['id']+'.json'),record)
         if not args.send:
             continue
@@ -233,7 +241,7 @@ def run(args):
         atomic_json(directory/'archive'/(item['id']+'.json'),record)
         # Durable pending marker BEFORE POST prevents duplication after a crash.
         checkpoint(directory,state,args.git_sync)
-        receipt=deliver(webhook,payload)
+        receipt=deliver(webhook,payload,image_path)
         state['items'][item['id']].update(status='sent',message_id=receipt,sent_at=utcnow().isoformat())
         checkpoint(directory,state,args.git_sync)
     report={'at':utcnow().isoformat(),'mode':'send' if args.send else 'preview','feeds_ok':success,'failed_feeds':failures,'eligible':len(items),'selected':len(selected),'pending':sum(v['status']=='pending' for v in state['items'].values())}
@@ -255,3 +263,4 @@ if __name__=='__main__':
         # Never print request URLs or API response bodies (they may contain secrets).
         print('Run failed:',str(error) if isinstance(error,(RuntimeError,ValueError)) else type(error).__name__,file=sys.stderr)
         sys.exit(1)
+
