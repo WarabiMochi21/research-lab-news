@@ -1,0 +1,53 @@
+{
+  "id": "2ebe8dd6d1cc4fca750cddbdaf7d6a34d120d0fd03b4600d3f3ed646d38e782e",
+  "headline_id": "c8a17328928f37a9602194ea94732f51fa8e87bb5a5684f2e501073f43c5273b",
+  "title": "Stocks Slide as Tech Selloff Worsens, Oil Steady: Markets Wrap",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
+  "description": "Global equities were hit by a selloff in technology shares ahead of this week’s earnings from Nvidia Corp. and Anthropic PBC’s expected listing, two events that are likely to influence the near-term course of an increasingly volatile AI trade.",
+  "published": "2026-11-15T22:11:32+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 5,
+  "retrieved": "2026-11-16T06:28:46.642494+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Stocks Slide as Tech Selloff Worsens Ahead of Key Events**\nGlobal equities declined due to a technology share selloff prior to upcoming earnings from Nvidia Corp. and Anthropic PBC's expected listing. These two events are anticipated to impact the near-term trajectory of the increasingly volatile AI trade. This is based on an RSS headline and description; the full article was not fetched and this represents a single source without independent confirmation.\n\n**Draft caption Canva**\nMarket Update for Research Lab members: Global equities experienced a slide driven by a worsening technology selloff. This movement comes ahead of Nvidia Corp.'s earnings and Anthropic PBC's expected listing, which are noted as key influences on the volatile AI trade. Reported Facts: Global equities hit by tech selloff; upcoming Nvidia earnings; expected Anthropic listing; anticipated impact on AI trade. Items to Verify: The actual market performance details, specific index movements, and exact timing or outcomes of the listed events. Note: Evidence is limited to an RSS headline and description; the full article was not fetched. This is a single source, not independent confirmation.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
+        "timestamp": "2026-11-15T22:11:32+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-15T22:11:32+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": null
+}
