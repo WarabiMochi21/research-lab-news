@@ -1,0 +1,52 @@
+{
+  "id": "d5f5dd03677d3d9deeeb70aca11efbfe1f9e4da05749869b8fcb58ca324adfb4",
+  "headline_id": "85c7eb072dcc147fc9da8631ef57e6a270a31dad56910a095a29226342ccebda",
+  "title": "Anthropic IPO, Nvidia Fallout in Focus; World Leaders Gather in Asia",
+  "url": "https://www.bloomberg.com/news/videos/2026-11-16/the-asia-trade-11-16-2026-video",
+  "description": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Paul Allen and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. (Source: Bloomberg)",
+  "published": "2026-11-16T04:10:05+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T05:30:28.403684+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Anthropic IPO, Nvidia Fallout & Asia Trade Focus**\nBloomberg's \"The Asia Trade\" covers the start of the trading day in Asia with hosts Paul Allen and Haidi Stroud-Watts. Broadcast live from Tokyo and Sydney, the program features insights and analysis from newsmakers and industry leaders on major stories shaping global markets, specifically highlighting the Anthropic IPO, Nvidia fallout, and gatherings of world leaders in Asia.\n\n**Draft caption Canva**\nReported Facts: - Bloomberg TV broadcast \"The Asia Trade\" live from Tokyo and Sydney with hosts Paul Allen and Haidi Stroud-Watts. - Topics in focus include the Anthropic IPO, Nvidia fallout, and world leaders gathering in Asia. - The source is Bloomberg Markets, retrieved on November 16, 2026. Items to Verify: - Specific details regarding the Anthropic IPO and Nvidia fallout mentioned in the broadcast. - Independent confirmation of the discussions held by world leaders in Asia. Note: This summary is based strictly on the provided RSS description. Full article not fetched. This is a single source, not independent confirmation. No investment recommendations or projections are provided.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/videos/2026-11-16/the-asia-trade-11-16-2026-video",
+        "timestamp": "2026-11-16T04:10:05+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T04:10:05+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/videos/2026-11-16/the-asia-trade-11-16-2026-video"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true
+}
