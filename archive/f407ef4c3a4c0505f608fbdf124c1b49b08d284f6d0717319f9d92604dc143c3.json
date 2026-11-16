@@ -1,0 +1,52 @@
+{
+  "id": "f407ef4c3a4c0505f608fbdf124c1b49b08d284f6d0717319f9d92604dc143c3",
+  "headline_id": "ef13cb3296211962ae379f5976e13a70bfc6e20dfcbfa260b23712fae7893778",
+  "title": "When the boss has an affair, the whole family business can pay the price",
+  "url": "https://www.theguardian.com/business/2026/nov/15/nvidia-ceo-jensen-huang-affair-business",
+  "description": "Fallout from ex-Nvidia CEO Jensen Huang’s affair is the latest reminder of the shared toll paid when patriarchs cheat From Profumo to Petraeus to Gary Hart , Bill Gates and Bill Clinton , history is littered with older men in positions of great responsibility having affairs with mostly younger women that put their jobs, businesses and reputations at great risk. Now we have the former Nvidia CEO, Jensen Huang. These men – smart, respected, powerful – make decisions that simply baffle the rest of us. If they’re so intelligent, how could they not see how things were going to end up? The answer is they’re men. And when there’s a younger woman who shows interest, well … Continue reading...",
+  "published": "2026-11-15T15:00:16+00:00",
+  "publisher": "The Guardian Business",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T05:44:39.578007+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Fallout From Former Nvidia CEO Jensen Huang’s Affair Highlighted**\nAccording to the provided RSS source, fallout from former Nvidia CEO Jensen Huang's affair is noted as the latest instance of powerful men risking their jobs, businesses, and reputations through affairs. The source compares this situation historically to figures such as Profumo, Petraeus, Gary Hart, Bill Gates, and Bill Clinton. Evidence is limited to the RSS headline and description; the full article was not fetched. This is a single source and not independent confirmation. No investment recommendations, projections, or additional context are \n\n**Draft caption Canva**\nReported facts: The RSS source discusses fallout from former Nvidia CEO Jensen Huang's affair, framing it alongside historical figures like Bill Gates, Bill Clinton, and David Petraeus regarding powerful men facing risks to their businesses and reputations due to affairs. Items to check: Verify the full context and details of the report directly from the original publisher, as the full article was not fetched and this represents a single source without independent confirmation. Note: This content is for informational purposes within the Research Lab US equities community and does not constitute investment advice, projections, or financial recommendations.",
+        "color": 4486642,
+        "url": "https://www.theguardian.com/business/2026/nov/15/nvidia-ceo-jensen-huang-affair-business",
+        "timestamp": "2026-11-15T15:00:16+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "The Guardian Business",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-15T15:00:16+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.theguardian.com/business/2026/nov/15/nvidia-ceo-jensen-huang-affair-business"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true
+}
