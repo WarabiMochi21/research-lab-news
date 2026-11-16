@@ -1,0 +1,52 @@
+{
+  "id": "c58c89c7dd6ea7d2653cc85db8e11f04d30ad689ad1771f701c7714a54549801",
+  "headline_id": "e3efb2c4fdfaf43e467c5d637e3d780e5a10f379046a87a7d44d22fe7550109a",
+  "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+  "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_campaign=rss&at_medium=RSS",
+  "description": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+  "published": "2026-11-16T01:47:57+00:00",
+  "publisher": "BBC Business",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T05:30:28.225102+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Megaspeed Says Suspected China Spy Left in 2025**\nMegaspeed stated that a suspected China spy linked to Nvidia's ex-boss left the company in 2025, according to a BBC Business report. The Nvidia scandal has raised questions over whether advanced AI chips ended up in China despite US restrictions. This information is based solely on RSS data; the full article was not fetched and this represents a single source without independent confirmation.\n\n**Draft caption Canva**\nReported Facts (Source: BBC Business RSS): - Megaspeed stated a suspected China spy linked to Nvidia's ex-boss left in 2025. - The Nvidia scandal raised questions over whether advanced AI chips ended up in China despite US restrictions. - This is based on a single source (RSS headline and description); the full article was not fetched, and evidence is currently limited. Items to Verify: - Details regarding the ties between the suspected spy and Nvidia's former boss. - Official statements or independent confirmations from Megaspeed, Nvidia, or regulatory bodies regarding chip shipments and export restrictions.",
+        "color": 4486642,
+        "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_campaign=rss&at_medium=RSS",
+        "timestamp": "2026-11-16T01:47:57+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "BBC Business",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T01:47:57+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_campaign=rss&at_medium=RSS"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true
+}
