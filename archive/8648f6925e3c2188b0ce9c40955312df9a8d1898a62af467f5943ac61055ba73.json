@@ -1,0 +1,53 @@
+{
+  "id": "8648f6925e3c2188b0ce9c40955312df9a8d1898a62af467f5943ac61055ba73",
+  "headline_id": "c3789cb77d85c8ac42dc11054eba69f6f32ec109a9ebbb816a0108c60ccedbbe",
+  "title": "Emerging-market Stocks, Currencies Fall as AI Concerns Persist",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-16/emerging-market-stocks-currencies-ai-concerns",
+  "description": "Emerging-market stocks dropped to the lowest in a week as caution ahead of Nvidia Corp.’s earnings weighed on technology shares.",
+  "published": "2026-11-16T06:14:58+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 5,
+  "retrieved": "2026-11-16T06:28:46.642494+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Emerging-Market Stocks and Currencies Fall Amid AI Concerns**\nEmerging-market stocks dropped to their lowest level in a week as caution ahead of Nvidia Corp.'s earnings weighed on technology shares, according to an RSS report from Bloomberg Markets published on November 16, 2026. The full article was not fetched; this is based on a single source and is not independently confirmed. Fact reported: EM stocks fell to a one-week low due to tech caution prior to Nvidia earnings. Items to verify: broader market impacts and specific currency movements.\n\n**Draft caption Canva**\nStay informed on global market movements with Research Lab. Reported Facts: Emerging-market stocks dropped to a one-week low as caution ahead of Nvidia Corp.'s earnings weighed on technology shares, per Bloomberg Markets data from November 16, 2026. Currencies also fell amid ongoing AI concerns. Things to Verify: Further details on specific currency declines and broader macroeconomic follow-through. Note: This is based on an RSS headline and description only; the full article was not fetched, this represents a single source, and no independent confirmation is available.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-16/emerging-market-stocks-currencies-ai-concerns",
+        "timestamp": "2026-11-16T06:14:58+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T06:14:58+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-16/emerging-market-stocks-currencies-ai-concerns"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": null
+}
