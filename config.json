@@ -1,8 +1,8 @@
 {
   "server_name": "Research Lab",
   "max_age_hours": 24,
-  "max_posts_per_run": 2,
-  "max_posts_per_day": 12,
+  "max_posts_per_run": 3,
+  "max_posts_per_day": 21,
   "min_score": 2,
   "keywords": {
     "earnings": 3, "revenue": 2, "guidance": 3, "inflation": 3,
@@ -12,7 +12,43 @@
     "alphabet": 2, "tesla": 2, "s&p": 2, "nasdaq": 2, "tariff": 2
   },
   "feeds": [
-    {"name": "Federal Reserve", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "primary": true},
-    {"name": "CNBC Top News", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "primary": false}
-  ]
+  {
+    "name": "Federal Reserve",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "primary": true
+  },
+  {
+    "name": "CNBC Top News",
+    "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+    "primary": false
+  },
+  {
+    "name": "ABC News Business",
+    "url": "https://feeds.abcnews.com/abcnews/moneyheadlines",
+    "primary": false
+  },{
+  "name": "BBC Business",
+  "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+  "primary": false
+},
+{
+  "name": "BEA",
+  "url": "https://apps.bea.gov/rss/rss.xml",
+  "primary": true
+},
+{
+  "name": "The New York Times Economy",
+  "url": "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml",
+  "primary": false
+},
+{
+  "name": "Bloomberg Markets",
+  "url": "https://www.bloomberg.com/feeds/markets/news.rss",
+  "primary": false
 }
+  {
+    "name": "The Guardian Business",
+    "url": "https://www.theguardian.com/us/business/rss",
+    "primary": false
+  }
+]
