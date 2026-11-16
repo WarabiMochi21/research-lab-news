@@ -1,0 +1,52 @@
+{
+  "id": "2f6187234627743d2e6208740a99ad55d04036ef02b330ef5e020cb75ebba8c8",
+  "headline_id": "a3186dcece51b5d1e580e4ed7f5b47c1099d38a4ef6c079d8edfc9109dfdda29",
+  "title": "Tech world's calls for Jensen Huang to return to Nvidia are growing",
+  "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
+  "description": "Calls for Jensen Huang's return as Nvidia CEO are growing, with tech executives and major shareholders backing a potential comeback following his resignation.",
+  "published": "2026-11-16T01:54:56+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T02:03:47.189769+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Tech Sector Calls Grow for Jensen Huang's Return to Nvidia**\nTech executives and major shareholders are reportedly backing a potential comeback for Jensen Huang following his resignation as Nvidia CEO. This summary is based solely on the provided RSS headline and description; the full article was not fetched, and specific dates, context, or independent confirmations are not yet available.\n\n**Draft caption Canva**\nReported Facts: - Tech executives and major shareholders are backing a potential comeback for Jensen Huang as Nvidia CEO following his resignation. - Source: CNBC Top News RSS description. Items to Verify: - Details regarding the circumstances of the resignation. - Timeline and formal statements from Nvidia, major shareholders, or Jensen Huang. - Independent confirmation of these reported calls for return. Note: This is based on a single RSS source; full article text and investment recommendations are not available.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
+        "timestamp": "2026-11-16T01:54:56+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T01:54:56+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true
+}
