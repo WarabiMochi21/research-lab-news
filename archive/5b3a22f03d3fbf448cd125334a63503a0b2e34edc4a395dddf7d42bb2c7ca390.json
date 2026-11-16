@@ -1,0 +1,52 @@
+{
+  "id": "5b3a22f03d3fbf448cd125334a63503a0b2e34edc4a395dddf7d42bb2c7ca390",
+  "headline_id": "2f9ea766b6cdda98ade1aa1326fcfcefbf2e71375bf2ddf537448f835e3b8409",
+  "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
+  "url": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_campaign=rss&at_medium=RSS",
+  "description": "The report being launched this week will suggest gradually reducing employment costs over five years.",
+  "published": "2026-11-15T22:30:03+00:00",
+  "publisher": "BBC Business",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-16T05:44:38.864755+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Milburn Report to Suggest National Insurance Cuts for Under-25s**\nAccording to an RSS headline and description, an upcoming report by Milburn will suggest gradually reducing employment costs by cutting national insurance for under-25s over a five-year period to create jobs. This is based on a single source; the full article was not fetched, and independent confirmation is not available. No specific numerical projections beyond the five-year timeframe are provided in the source data. This is a single source, not independent confirmation.\n\n**Draft caption Canva**\nReport: Milburn report to launch this week suggesting national insurance cuts for under-25s to create jobs. Reported Facts (Source Data Only): - A report by Milburn is launching this week. - It suggests gradually reducing employment costs over five years by cutting national insurance for under-25s. Things to Verify: - Full details and methodology of the proposed employment cost reductions. - Official release and text of the report. Note: Based on an RSS headline and description. Full article not fetched. This is a single source, not independent confirmation. Evidence is limited.",
+        "color": 4486642,
+        "url": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_campaign=rss&at_medium=RSS",
+        "timestamp": "2026-11-15T22:30:03+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "BBC Business",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-15T22:30:03+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_campaign=rss&at_medium=RSS"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        }
+      }
+    ]
+  },
+  "ai_used": true
+}
