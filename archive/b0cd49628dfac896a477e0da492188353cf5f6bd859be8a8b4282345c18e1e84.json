@@ -1,0 +1,56 @@
+{
+  "id": "b0cd49628dfac896a477e0da492188353cf5f6bd859be8a8b4282345c18e1e84",
+  "headline_id": "32db6b422958f711298bba12d1d0583eae024d1f79d3c1433fd38bc7b8ebfe29",
+  "title": "Betterment CEO Sarah Levy on Plus Debut, New IRA Options",
+  "url": "https://www.bloomberg.com/news/videos/2026-11-16/betterment-ceo-sarah-levy-on-plus-debut-new-ira-options-video",
+  "description": "Betterment CEO Sarah Levy discusses the company's newly announced Betterment Plus program, which brings together human guidance, individual stock trading, lending and partner products, and IRA custody. She speaks with Romaine Bostick and Vonnie Quinn on \"The Close\". (Source: Bloomberg)",
+  "published": "2026-11-16T23:17:26+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 3,
+  "retrieved": "2026-11-17T00:17:51.330049+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Betterment CEO Sarah Levy Discusses New Plus Program and IRA Options**\nBetterment CEO Sarah Levy discussed the newly announced Betterment Plus program in an interview with Romaine Bostick and Vonnie Quinn on \"The Close\". According to the provided source, the program combines human guidance, individual stock trading, lending, partner products, and IRA custody. No further details are available from this single source, and full article content has not been fetched.\n\n**Draft caption Canva**\nReported Facts: Betterment CEO Sarah Levy discussed the new Betterment Plus program on \"The Close\", which includes human guidance, individual stock trading, lending, partner products, and IRA custody. Things to Verify: Further details regarding availability, pricing, and specific features of the Betterment Plus program and new IRA options need to be checked against official company announcements. This summary is based on a single RSS source and is not independently confirmed.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/videos/2026-11-16/betterment-ceo-sarah-levy-on-plus-debut-new-ira-options-video",
+        "timestamp": "2026-11-16T23:17:26+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T23:17:26+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/videos/2026-11-16/betterment-ceo-sarah-levy-on-plus-debut-new-ira-options-video"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://b0cd49628dfac896a477e0da492188353cf5f6bd859be8a8b4282345c18e1e84.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "b0cd49628dfac896a477e0da492188353cf5f6bd859be8a8b4282345c18e1e84.png"
+}
