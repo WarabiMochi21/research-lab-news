@@ -10,9 +10,13 @@ from urllib.error import HTTPError
 BASE = 'https://research-lab-review.jaydentimothyliu.workers.dev'
 
 def request_json(url, payload=None, headers=None):
-    req=Request(url, data=None if payload is None else json.dumps(payload).encode(), headers={'Content-Type':'application/json', **(headers or {})})
-    with urlopen(req, timeout=75) as r:
-        raw=r.read(1000000)
+    req=Request(url, data=None if payload is None else json.dumps(payload).encode(), headers={'Content-Type':'application/json', 'User-Agent':'ResearchLabEditorial/1.0', 'Accept':'application/json', **(headers or {})})
+    try:
+        with urlopen(req, timeout=75) as r:
+            raw=r.read(1000000)
+    except HTTPError as error:
+        print('Connection diagnostic:', 'HTTP',error.code, 'server=',error.headers.get('Server','unknown'), 'content-type=',error.headers.get('Content-Type','unknown'), 'challenge=',error.headers.get('cf-mitigated','none'))
+        raise
     return json.loads(raw)
 
 def bridge(route, payload=None):
