@@ -1,0 +1,56 @@
+{
+  "id": "a4261dadb1700386ef00d52d95bb1a31c99fec9a6cdd1b224c3a33639f34d7db",
+  "headline_id": "58eea1fc166c1bbdcaebd01c44394d7fc2f1d20f7250605d9ef0c00362a491b1",
+  "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+  "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+  "description": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
+  "published": "2026-11-16T22:37:45+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-17T02:33:52.913326+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Trump Accounts Traded Nvidia Stock Amid Huang White House Access**\nAccording to the provided source, Trump's accounts traded up to $97.5 million in Nvidia stock as Jensen Huang gained White House access. Additionally, the source states that Trump's accounts sold up to $1 million in Nvidia stock five days after he was briefed on Huang's relationship with a suspected Chinese spy. Note: This is based solely on the RSS headline and description; the full article was not fetched. This is a single source and not an independent confirmation. Specific details and context require further verification.\n\n**Draft caption Canva**\nReported Facts: - Trump's accounts traded up to $97.5 million in Nvidia stock as Jensen Huang gained White House access. - Trump's accounts sold up to $1 million in Nvidia stock five days after he was briefed on Huang's relationship with a suspected Chinese spy. Items to Verify: - Full context of the trades, timing, and official disclosures. - Details regarding the briefing and White House access. Disclaimer: This is based on a single RSS source without independent confirmation. Full article not fetched. Data reflects the provided source only.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+        "timestamp": "2026-11-16T22:37:45+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T22:37:45+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://a4261dadb1700386ef00d52d95bb1a31c99fec9a6cdd1b224c3a33639f34d7db.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "a4261dadb1700386ef00d52d95bb1a31c99fec9a6cdd1b224c3a33639f34d7db.png"
+}
