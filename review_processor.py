@@ -37,7 +37,7 @@ def evidence(entry):
     url=entry.get('url','')
     p=urlsplit(url)
     host=(p.hostname or '').lower()
-    result={'url':url,'editor_notes':entry.get('notes',''),'access':'editor-supplied notes only'}
+    result={'url':url,'editor_notes':entry.get('notes',''),'title':entry.get('title',''),'publisher':entry.get('publisher',''),'published':entry.get('published',''),'access':'editor-supplied notes only'}
     if p.scheme!='https' or p.username or p.password or p.port not in (None,443) or not any(host==h or host.endswith('.'+h) for h in hosts): return result
     try:
         import trafilatura
@@ -54,10 +54,11 @@ def evidence(entry):
     return result
 
 def research(row):
-    from editorial import build_brief
+    from editorial import generate, field
+    from research_builder import build
     entries = json.loads(row['inputs'])
     sources = [evidence(x) for x in entries]
-    text, copy = build_brief(sources, request_json)
+    text, copy, report = build(sources, request_json, generate, field)
     copy = {key: display_text(value) for key, value in copy.items()}
     # Freeze the exact poster bytes before review; image failure keeps the draft queued.
     from news_card import render_card
@@ -71,7 +72,7 @@ def research(row):
         Image.open(picture).convert('RGB').save(target,'JPEG',quality=88,optimize=True)
         encoded=base64.b64encode(target.read_bytes()).decode()
     if len(encoded)>900000: raise RuntimeError('Poster exceeds storage limit; draft remains queued')
-    bridge('ready',{'id':row['id'],'revision':row['revision'],'analysis':text,'image_b64':encoded})
+    bridge('ready',{'id':row['id'],'revision':row['revision'],'analysis':text,'image_b64':encoded,'report_text':report})
 
 def publish(row):
     import bot
@@ -86,7 +87,11 @@ def publish(row):
             target=Path(folder)/'poster.jpg'
             target.write_bytes(base64.b64decode(image,validate=True))
             payload['embeds'][0]['image']={'url':'attachment://poster.jpg'}
-            receipt=bot.deliver(url,payload,target)
+            if claimed.get('report_text'):
+                from report_delivery import deliver
+                receipt=deliver(url,payload,target,claimed['report_text'])
+            else:
+                receipt=bot.deliver(url,payload,target)
     else:
         receipt=bot.deliver(url,payload)
     bridge('complete',{'id':claimed['id'],'revision':claimed['revision'],'message_id':receipt})
@@ -120,7 +125,7 @@ def collect_news():
             host=urlsplit(article['url']).hostname
             if host in hosts: continue
             hosts.add(host)
-            sources.append({'url':article['url'], 'notes':article['title']+'\n'+article.get('description','')+'\nRSS excerpt only.', 'publisher':article['publisher'], 'published':article['published']})
+            sources.append({'url':article['url'], 'title':article['title'], 'notes':article['title']+'\n'+article.get('description','')+'\nRSS excerpt only.', 'publisher':article['publisher'], 'published':article['published']})
             if len(sources)>=4: break
         result=bridge('drafts',{'id_key':key,'title':item['title'],'sources':sources})
         if result.get('created'): added+=1
