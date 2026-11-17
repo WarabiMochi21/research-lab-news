@@ -3,6 +3,9 @@ import argparse
 import json
 import os
 import sys
+import base64
+import tempfile
+from pathlib import Path
 from urllib.request import Request, urlopen, build_opener, HTTPRedirectHandler
 from urllib.parse import urlsplit
 from urllib.error import HTTPError
@@ -71,7 +74,19 @@ Evidence:\n'''+json.dumps([dict(s,source_number=i+1) for i,s in enumerate(source
     if not candidates or candidates[0].get('finishReason')!='STOP': raise RuntimeError('AI response incomplete; draft remains queued')
     text=''.join(p.get('text','') for p in candidates[0].get('content',{}).get('parts',[]) if not p.get('thought'))
     if not text.strip() or len(text)>3900: raise RuntimeError('AI brief exceeds review limit; draft remains queued')
-    bridge('ready',{'id':row['id'],'revision':row['revision'],'analysis':text})
+    # Freeze the exact poster bytes before review; image failure keeps the draft queued.
+    from news_card import render_card
+    from PIL import Image
+    from datetime import datetime, timezone
+    first=json.loads(row['inputs'])[0]
+    item={'title':row['title'],'description':first.get('notes','')[:500], 'publisher':urlsplit(first['url']).hostname or 'Editorial sources', 'published':first.get('published') or datetime.now(timezone.utc).isoformat()}
+    with tempfile.TemporaryDirectory() as folder:
+        picture=render_card(item,None,Path(folder)/'poster.png')
+        target=Path(folder)/'poster.jpg'
+        Image.open(picture).convert('RGB').save(target,'JPEG',quality=88,optimize=True)
+        encoded=base64.b64encode(target.read_bytes()).decode()
+    if len(encoded)>900000: raise RuntimeError('Poster exceeds storage limit; draft remains queued')
+    bridge('ready',{'id':row['id'],'revision':row['revision'],'analysis':text,'image_b64':encoded})
 
 def publish(row):
     import bot
@@ -80,7 +95,15 @@ def publish(row):
     # Claim is persisted before Discord POST. Ambiguous delivery is never auto-retried.
     claimed=bridge('claim',{'id':row['id'],'revision':row['revision']})
     payload={'username':'Research Lab','allowed_mentions':{'parse':[]},'embeds':[{'title':claimed['title'][:160],'description':claimed['analysis'],'footer':{'text':'Human-approved research brief | '+claimed['id']}}]}
-    receipt=bot.deliver(url,payload)
+    image=claimed.get('image_b64')
+    if image:
+        with tempfile.TemporaryDirectory() as folder:
+            target=Path(folder)/'poster.jpg'
+            target.write_bytes(base64.b64decode(image,validate=True))
+            payload['embeds'][0]['image']={'url':'attachment://poster.jpg'}
+            receipt=bot.deliver(url,payload,target)
+    else:
+        receipt=bot.deliver(url,payload)
     bridge('complete',{'id':claimed['id'],'revision':claimed['revision'],'message_id':receipt})
 
 def collect_news():
