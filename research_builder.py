@@ -62,6 +62,7 @@ missing exposure data. Do not substitute generic regulation commentary for busin
 Include valid [n] evidence references in summary and caption, using IDs present in the report.
 Preserve attribution and uncertainty. This copy and the full report will be reviewed together.''',clean)
     limits={'headline':90,'summary':320,'caption':500,'importance':180,'facts':300,'research':300,'implications':600,'risks':220,'watch':220}
+    compact = repair_copy(compact, clean, limits, sources, request, generate)
     compact={k:field(compact,k,n) for k,n in limits.items()}
     import re
     for k in ('summary','caption'):
@@ -98,3 +99,36 @@ Preserve attribution and uncertainty. This copy and the full report will be revi
     brief+='\n\n**SOCIAL CAPTION**\n'+compact['caption']
     if len(brief)>3900: raise ValueError('Brief too large')
     return brief,{k:compact[k] for k in ('headline','summary','caption')},full
+
+
+def repair_copy(compact, report, limits, sources, request, generate):
+    """Repair copy only, preserving the validated full research report."""
+    import re
+    for attempt in range(4):
+        errors=[]
+        for key, limit in limits.items():
+            value=compact.get(key) if isinstance(compact,dict) else None
+            if not isinstance(value,str) or not value.strip():
+                errors.append(key+': must be a nonempty JSON string')
+            elif len(value)>limit:
+                errors.append(f'{key}: {len(value)} characters exceeds {limit}')
+        if isinstance(compact,dict):
+            for key in ('summary','caption'):
+                value=compact.get(key)
+                if not isinstance(value,str): continue
+                refs=re.findall(r'\[(\d+)\]',value)
+                if not refs or any(not 1<=int(n)<=len(sources) for n in refs):
+                    errors.append(key+': needs valid evidence references')
+        if not errors: return compact
+        print('Copywriting repair needed:', '; '.join(errors), flush=True)
+        if attempt==3: raise ValueError('Copy remains invalid after targeted repair: '+'; '.join(errors))
+        compact=generate(request,
+            'Rewrite ONLY the compact social copy from the validated report. Return one JSON object. '
+            'Every field must be a string, never an array or object. Character limits include spaces '
+            'and citation markers. Aim BELOW the supplied target lengths to leave room. '
+            'Preserve uncertainty, attribution and negation; remove optional detail instead of cutting words. '
+            'Do not add facts or omit the main caveat. Keep valid [n] citations in summary and caption.',
+            {'report':report,'previous_copy':compact,'errors':errors,
+             'target_characters':{k:int(v*0.7) for k,v in limits.items()},
+             'hard_limits':limits})
+
