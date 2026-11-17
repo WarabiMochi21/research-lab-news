@@ -1,0 +1,56 @@
+{
+  "id": "4d58dbee4ae4c454c9313b18e3e1c0ed78ea0f8dc40424d1fdf895fba9a92ffb",
+  "headline_id": "2b92fdddd17094dbde0403c579d5d2dd981f63bee127adaeeadf9d1f82c1b7e6",
+  "title": "New Zealand Inflation Expectations Remain Anchored Above 2%",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-inflation-expectations-remain-anchored-above-2",
+  "description": "New Zealand’s long-term inflation expectations eased in the fourth quarter, adding to signs that a fresh wave of higher fuel prices is not becoming embedded in the economy.",
+  "published": "2026-11-17T02:24:44+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 3,
+  "retrieved": "2026-11-17T02:33:54.165089+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**NZ Inflation Expectations Ease**\nNew Zealand’s long-term inflation expectations eased in the fourth quarter, according to Bloomberg Markets. This adds to signs that a fresh wave of higher fuel prices is not becoming embedded in the economy. Evidence is based solely on the RSS headline and description; the full article was not fetched. This is a single source and not an independent confirmation. No investment recommendations or projections are provided.\n\n**Draft caption Canva**\nReported Facts: - New Zealand’s long-term inflation expectations eased in the fourth quarter. - Signs indicate a fresh wave of higher fuel prices is not becoming embedded in the economy. Items to Verify: - Full context of the fourth-quarter data release. - Potential impacts on monetary policy and broader market reactions. Disclaimer: Based strictly on a single RSS source (Bloomberg Markets). Full article not fetched. Not an investment recommendation.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-inflation-expectations-remain-anchored-above-2",
+        "timestamp": "2026-11-17T02:24:44+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-17T02:24:44+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-inflation-expectations-remain-anchored-above-2"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://4d58dbee4ae4c454c9313b18e3e1c0ed78ea0f8dc40424d1fdf895fba9a92ffb.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "4d58dbee4ae4c454c9313b18e3e1c0ed78ea0f8dc40424d1fdf895fba9a92ffb.png"
+}
