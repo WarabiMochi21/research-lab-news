@@ -1,0 +1,56 @@
+{
+  "id": "81a786e7e6cb8c57d15ddcb46546cba970cd2121bc436d0739ebf1d3f5aaafda",
+  "headline_id": "c3ffc67984b2061bb50922076181f5e643d602d618eebb4cb99e81fadf320578",
+  "title": "Asia Stock Selloff Enters Fourth Day, Oil Declines: Markets Wrap",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+  "description": "Asian stocks dropped as US moves to restrict China’s access to advanced artificial intelligence chips and servers added to caution ahead of Nvidia Corp.’s high-stakes earnings.",
+  "published": "2026-11-16T22:06:51+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 5,
+  "retrieved": "2026-11-17T03:25:16.769087+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Asia Stocks Fall for Fourth Day Amid US Chip Curbs**\nAsian equities declined for a fourth consecutive session alongside falling oil prices. According to the source RSS data, the drop comes as US moves to restrict China's access to advanced artificial intelligence chips and servers heighten market caution. Investors are also preparing for upcoming high-stakes earnings from Nvidia Corp. This summary is based strictly on provided RSS text; the full article was not fetched and this represents a single source without independent confirmation.\n\n**Draft caption Canva**\nMarket Update: Asian stocks extended their decline into a fourth day, with oil prices also moving lower, as reported by Bloomberg Markets. Reported Facts: - Asian stocks dropped as US actions aim to restrict China's access to advanced AI chips and servers. - Markets are exercising caution ahead of upcoming earnings from Nvidia Corp. - Oil prices declined. Items to Verify: - The full scope and specific details of the US restrictions on China's AI chips. - Official earnings release details and market reactions for Nvidia Corp. Note: This content is based solely on a single RSS headline and description provided on November 16, 2026. The full article was not read, and no independent confirmation is available. This is not investment advice.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+        "timestamp": "2026-11-16T22:06:51+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T22:06:51+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://81a786e7e6cb8c57d15ddcb46546cba970cd2121bc436d0739ebf1d3f5aaafda.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "81a786e7e6cb8c57d15ddcb46546cba970cd2121bc436d0739ebf1d3f5aaafda.png"
+}
