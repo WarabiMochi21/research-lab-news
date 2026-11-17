@@ -1,0 +1,56 @@
+{
+  "id": "d3960d9a3ac37feefe220041ee60e1c9e405c5ce57883ec9f59ed8982b286a08",
+  "headline_id": "d0e8c4a8b53e74559a3dca91cd020062c587feff077562435f8491e3ac0746d2",
+  "title": "RBA Raised Rates as Price Risks Remained to Upside, Minutes Show",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-17/rba-raised-rates-as-price-risks-remained-to-upside-minutes-show",
+  "description": "A majority of the Australian central bank’s nine-member board voted to raise interest rates two weeks ago on concerns that risks to the inflation outlook remained to the upside and consumer prices had stayed too high for too long.",
+  "published": "2026-11-17T00:30:00+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 3,
+  "retrieved": "2026-11-17T01:37:08.722557+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**RBA Raised Rates Amid Upside Price Risks, Minutes Show**\nAccording to the RSS source, a majority of the Australian central bank's nine-member board voted to raise interest rates two weeks ago. The decision was based on concerns that risks to the inflation outlook remained to the upside and consumer prices had stayed too high for too long. Evidence is based solely on the RSS headline and description; the full article was not fetched, and this is a single source without independent confirmation.\n\n**Draft caption Canva**\nReported Fact: The Australian central bank's board voted to raise interest rates due to upside inflation risks and persistently high consumer prices, per the RSS source. Items to Verify: Full meeting minutes details, exact rate hike magnitude, and broader economic impacts. Disclaimer: Based on a single RSS source; full article not fetched. Not investment advice.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-17/rba-raised-rates-as-price-risks-remained-to-upside-minutes-show",
+        "timestamp": "2026-11-17T00:30:00+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-17T00:30:00+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-17/rba-raised-rates-as-price-risks-remained-to-upside-minutes-show"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://d3960d9a3ac37feefe220041ee60e1c9e405c5ce57883ec9f59ed8982b286a08.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "d3960d9a3ac37feefe220041ee60e1c9e405c5ce57883ec9f59ed8982b286a08.png"
+}
