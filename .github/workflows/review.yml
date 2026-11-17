@@ -32,9 +32,9 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_CHANNEL_ID: ${{ vars.DISCORD_CHANNEL_ID }}
           PUBLISH: ${{ inputs.publish || (github.event_name == 'schedule' && vars.REVIEW_PUBLISH_ENABLED == 'true') }}
+          COLLECT: ${{ vars.REVIEW_COLLECT_ENABLED }}
         run: |
-          if [ "$PUBLISH" = 'true' ]; then
-            python review_processor.py --publish
-          else
-            python review_processor.py
-          fi
+          args=()
+          if [ "$PUBLISH" = 'true' ]; then args+=(--publish); fi
+          if [ "$COLLECT" = 'true' ]; then args+=(--collect); fi
+          python review_processor.py "${args[@]}"
