@@ -1,0 +1,56 @@
+{
+  "id": "b4310b60ecfbc0851948875ef8d7078a1e43f449ccd1610dac4aca65c78abd07",
+  "headline_id": "2285dfe9438a7b7e41658060d5bb2c2c55a4da38d60f4ea78b295c383a1f2fa6",
+  "title": "Learfield’s Cole Gahagan on Economics of College Sports",
+  "url": "https://www.bloomberg.com/news/videos/2026-11-16/learfield-s-cole-gahagan-on-economics-of-college-sports-video",
+  "description": "Cole Gahagan, president and CEO of Learfield, discusses how the company helps colleges generate commercial revenue and connect student-athletes with name, image and likeness (NIL) opportunities. He speaks with Romaine Bostick on \"The Close\". (Source: Bloomberg)",
+  "published": "2026-11-16T23:10:49+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-17T00:17:51.330049+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Learfield CEO Cole Gahagan on College Sports Economics**\nCole Gahagan, president and CEO of Learfield, discussed how the company assists colleges in generating commercial revenue and connecting student-athletes with name, image and likeness (NIL) opportunities during an appearance with Romaine Bostick on \"The Close\". This summary is based solely on the provided RSS description; the full article was not fetched.\n\n**Draft caption Canva**\nReported Facts: - Cole Gahagan, president and CEO of Learfield, discussed college sports economics on \"The Close\" with Romaine Bostick. - Topics included how Learfield helps colleges generate commercial revenue and connects student-athletes with name, image and likeness (NIL) opportunities. Items to Verify: - Further specific financial metrics, projections, or broader impacts on US equities were not mentioned in the source. - Additional context regarding market performance or independent confirmations is currently not available. Note: Based on a single RSS description; full article not fetched.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/videos/2026-11-16/learfield-s-cole-gahagan-on-economics-of-college-sports-video",
+        "timestamp": "2026-11-16T23:10:49+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T23:10:49+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/videos/2026-11-16/learfield-s-cole-gahagan-on-economics-of-college-sports-video"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://b4310b60ecfbc0851948875ef8d7078a1e43f449ccd1610dac4aca65c78abd07.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "b4310b60ecfbc0851948875ef8d7078a1e43f449ccd1610dac4aca65c78abd07.png"
+}
