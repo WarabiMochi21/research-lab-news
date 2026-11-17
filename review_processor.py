@@ -1,4 +1,5 @@
 """Process editorial drafts; only publish immutable approved revisions."""
+from display_text import display_text
 import argparse
 import json
 import os
@@ -57,6 +58,7 @@ def research(row):
     entries = json.loads(row['inputs'])
     sources = [evidence(x) for x in entries]
     text, copy = build_brief(sources, request_json)
+    copy = {key: display_text(value) for key, value in copy.items()}
     # Freeze the exact poster bytes before review; image failure keeps the draft queued.
     from news_card import render_card
     from PIL import Image
@@ -77,7 +79,7 @@ def publish(row):
     bot.verify_destination(url,os.environ.get('DISCORD_CHANNEL_ID',''))
     # Claim is persisted before Discord POST. Ambiguous delivery is never auto-retried.
     claimed=bridge('claim',{'id':row['id'],'revision':row['revision']})
-    payload={'username':'Research Lab','allowed_mentions':{'parse':[]},'embeds':[{'title':claimed['title'][:160],'description':claimed['analysis'],'footer':{'text':'Human-approved research brief | '+claimed['id']}}]}
+    payload={'username':'Research Lab','allowed_mentions':{'parse':[]},'embeds':[{'title':claimed['title'][:160],'description':display_text(claimed['analysis']),'footer':{'text':'Human-approved research brief'}}]}
     image=claimed.get('image_b64')
     if image:
         with tempfile.TemporaryDirectory() as folder:
@@ -160,3 +162,4 @@ def main():
     if failed or collection_failed: sys.exit(1)
 
 if __name__=='__main__': main()
+
