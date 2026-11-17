@@ -1,0 +1,56 @@
+{
+  "id": "08395e01a9e8cb12c0800ab6cb38a5f6ca56ad42c62ee3fc8997612521e77ace",
+  "headline_id": "3f4d483140fc2e23860836e0e94439c14a4a1721cdabe99c9a86c12114407672",
+  "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists",
+  "description": "Gold steadied after its lowest close since September 2025, under pressure from stubborn US inflation and losses on Wall Street.",
+  "published": "2026-11-16T23:26:48+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 3,
+  "retrieved": "2026-11-17T00:17:51.330049+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Gold Steadies Near 14-Month Low Amid Inflation Pressures**\nGold steadied following its lowest close since September 2025, remaining under pressure from stubborn US inflation and losses on Wall Street, according to an RSS report from Bloomberg Markets published on November 16, 2026. This summary is based solely on the provided RSS description and headline; the full article was not fetched, and this represents a single source without independent confirmation. No investment recommendations, projections, or additional context are provided.\n\n**Draft caption Canva**\nReported Facts: Gold steadied near a 14-month low, marking its lowest close since September 2025. The metal remains under pressure from stubborn US inflation and Wall Street losses, based on a Bloomberg Markets RSS update from November 16, 2026. This is based entirely on the provided RSS headline and description; the full article was not read. This serves as a single source and not an independent confirmation. Items to Verify: Check current market data to confirm the exact price levels and subsequent movements of gold, US inflation metrics, and Wall Street performance. No investment advice, projections, or further context are included.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists",
+        "timestamp": "2026-11-16T23:26:48+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T23:26:48+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://08395e01a9e8cb12c0800ab6cb38a5f6ca56ad42c62ee3fc8997612521e77ace.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "08395e01a9e8cb12c0800ab6cb38a5f6ca56ad42c62ee3fc8997612521e77ace.png"
+}
