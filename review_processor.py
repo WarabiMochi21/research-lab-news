@@ -1,5 +1,6 @@
 """Process editorial drafts; only publish immutable approved revisions."""
 from display_text import display_text
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import argparse
 import json
 import os
@@ -57,7 +58,8 @@ def research(row):
     from editorial import generate, field
     from research_builder import build
     entries = json.loads(row['inputs'])
-    sources = [evidence(x) for x in entries]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        sources = list(pool.map(evidence, entries))
     text, copy, report = build(sources, request_json, generate, field)
     copy = {key: display_text(value) for key, value in copy.items()}
     # Freeze the exact poster bytes before review; image failure keeps the draft queued.
@@ -102,12 +104,16 @@ def collect_news():
     config=json.loads((bot.ROOT/'config.json').read_text(encoding='utf-8'))
     items=[]
     ok=0
-    for feed in config['feeds']:
-        try:
-            items.extend(bot.parse_feed(bot.http(feed['url']),feed,config))
-            ok+=1
-        except Exception:
-            print('Feed unavailable:',feed['name'])
+    def fetch_feed(feed):
+        return bot.parse_feed(bot.http(feed['url']),feed,config)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures={pool.submit(fetch_feed,feed):feed for feed in config['feeds']}
+        for future in as_completed(futures):
+            try:
+                items.extend(future.result())
+                ok+=1
+            except Exception:
+                print('Feed unavailable:',futures[future]['name'])
     if not ok: raise RuntimeError('All feeds failed')
     config=dict(config,max_posts_per_run=100,max_posts_per_day=100)
     selected=bot.select_items(items,{'items':{}},config)
@@ -167,4 +173,5 @@ def main():
     if failed or collection_failed: sys.exit(1)
 
 if __name__=='__main__': main()
+
 
