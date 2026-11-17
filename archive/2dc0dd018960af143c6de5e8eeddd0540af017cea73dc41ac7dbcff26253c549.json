@@ -1,0 +1,56 @@
+{
+  "id": "2dc0dd018960af143c6de5e8eeddd0540af017cea73dc41ac7dbcff26253c549",
+  "headline_id": "da9c70e0a993de5f9f426e832592ff75a47834262711152fa71d6efba449e7fd",
+  "title": "Chip Stocks Slide as US Sets New Curbs on China’s Compute Access",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-17/chip-stocks-slide-as-us-sets-new-curbs-on-china-s-compute-access",
+  "description": "Chipmaker stocks tumbled after the US moved to further restrict China’s access to advanced artificial intelligence chips and servers in the wake of the scandal involving Nvidia Corp.",
+  "published": "2026-11-17T00:22:19+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-17T01:37:08.722557+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Chip Stocks Slide on New US Curbs for China Compute**\nChipmaker stocks tumbled following US moves to further restrict China's access to advanced artificial intelligence chips and servers. This action follows a scandal involving Nvidia Corp. The evidence is based solely on the RSS headline and description; the full article was not fetched. This is a single source, not independent confirmation. Specific dates, figures, quotes, and projections are not mentioned in the source data.\n\n**Draft caption Canva**\nReported Facts: - Chipmaker stocks tumbled after the US moved to further restrict China's access to advanced artificial intelligence chips and servers. - The restriction follows a scandal involving Nvidia Corp. - Source: Bloomberg Markets. Items to Verify: - Verify the exact details of the new US restrictions and the Nvidia Corp. scandal. - Check broader market impact on specific US equities within the chip sector. - Confirm further independent reporting. Disclaimer: Based on RSS headline and description only; full article not fetched. This represents a single source, not independent confirmation. No investment recommendations or projections are provided.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-17/chip-stocks-slide-as-us-sets-new-curbs-on-china-s-compute-access",
+        "timestamp": "2026-11-17T00:22:19+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-17T00:22:19+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-17/chip-stocks-slide-as-us-sets-new-curbs-on-china-s-compute-access"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://2dc0dd018960af143c6de5e8eeddd0540af017cea73dc41ac7dbcff26253c549.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "2dc0dd018960af143c6de5e8eeddd0540af017cea73dc41ac7dbcff26253c549.png"
+}
