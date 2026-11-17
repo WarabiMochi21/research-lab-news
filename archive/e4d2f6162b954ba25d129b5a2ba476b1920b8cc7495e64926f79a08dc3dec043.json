@@ -1,0 +1,56 @@
+{
+  "id": "e4d2f6162b954ba25d129b5a2ba476b1920b8cc7495e64926f79a08dc3dec043",
+  "headline_id": "d7882c444e8f6a12013e91f1f5445d1a0aaec1e9db984e52bc352f567d25a431",
+  "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
+  "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+  "description": "The rule was written by the Treasury Department and the National Security Council after criticism of Commerce Secretary Howard Lutnick.",
+  "published": "2026-11-16T21:51:43+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-17T03:25:15.813085+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Commerce Targets China Data Center Loophole Amid Nvidia Fallout**\nBased on the provided source text, a rule was written by the Treasury Department and the National Security Council following criticism of Commerce Secretary Howard Lutnick regarding Nvidia fallout and data center use in China. This is based solely on the RSS headline and description; the full article was not fetched, and this represents a single source without independent confirmation. Specific figures, dates, quotes, causes, projections, and investment recommendations are not available.\n\n**Draft caption Canva**\nReported Facts: - A rule was written by the Treasury Department and the National Security Council. - The action targets a loophole for China's data center use amid Nvidia fallout. - The development follows criticism of Commerce Secretary Howard Lutnick. Things to Verify: - Full details of the new rule and how it closes the loophole. - The specific context surrounding the criticism of Commerce Secretary Howard Lutnick. - Potential impacts on US equities and related companies. Note: This is based on a single RSS source with evidence described as headline and description only; the full article was not fetched. Additional independent confirmation is needed.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+        "timestamp": "2026-11-16T21:51:43+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T21:51:43+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://e4d2f6162b954ba25d129b5a2ba476b1920b8cc7495e64926f79a08dc3dec043.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "e4d2f6162b954ba25d129b5a2ba476b1920b8cc7495e64926f79a08dc3dec043.png"
+}
