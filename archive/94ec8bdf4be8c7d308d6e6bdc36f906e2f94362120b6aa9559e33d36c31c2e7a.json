@@ -1,0 +1,56 @@
+{
+  "id": "94ec8bdf4be8c7d308d6e6bdc36f906e2f94362120b6aa9559e33d36c31c2e7a",
+  "headline_id": "b2fab52b97246f250b93df8c2b116dccada8dea9a3b89ada561abf275ad0e4ae",
+  "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+  "url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+  "description": "CNBC's Jim Cramer pushed back against fears that Nvidia's leadership shake-up could unravel the AI boom.",
+  "published": "2026-11-16T23:23:47+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-17T01:37:07.294218+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Jim Cramer: Nvidia Leadership Shake-Up Won't Derail AI Trade**\nCNBC's Jim Cramer has pushed back against concerns that a recent leadership shake-up at Nvidia could unravel the ongoing artificial intelligence boom. According to the source data, Cramer dismissed fears surrounding the management changes. Please note this is based on a single RSS source; full article text was not fetched, and further details or independent confirmations are currently not available.\n\n**Draft caption Canva**\nReported Fact: CNBC's Jim Cramer stated that Nvidia's leadership shake-up will not derail the AI trade or unravel the AI boom. Items to Verify: Specific details regarding who is involved in the Nvidia leadership change, the exact context of Cramer's remarks, and any broader market reactions. Disclaimer: Based solely on limited RSS source data. Full article text was not fetched. This is a single source and not an independent confirmation. Not investment advice.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+        "timestamp": "2026-11-16T23:23:47+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T23:23:47+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://94ec8bdf4be8c7d308d6e6bdc36f906e2f94362120b6aa9559e33d36c31c2e7a.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "94ec8bdf4be8c7d308d6e6bdc36f906e2f94362120b6aa9559e33d36c31c2e7a.png"
+}
