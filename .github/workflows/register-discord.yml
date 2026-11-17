@@ -1,0 +1,46 @@
+name: Register Discord Commands
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Register addnews
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError
+          token = os.environ.get('DISCORD_BOT_TOKEN', '').strip()
+          if not token:
+              sys.exit('Missing DISCORD_BOT_TOKEN repository secret.')
+          command = {
+              'name': 'addnews',
+              'type': 1,
+              'description': 'Submit a source and context for Research Lab editorial review',
+              'default_member_permissions': '32',
+              'contexts': [0],
+              'integration_types': [0]
+          }
+          request = Request(
+              'https://discord.com/api/v10/applications/1572231616477012109/commands',
+              data=json.dumps(command).encode(),
+              headers={'Authorization': 'Bot ' + token, 'Content-Type': 'application/json', 'User-Agent': 'ResearchLabReview/1.0'},
+              method='POST'
+          )
+          try:
+              with urlopen(request, timeout=30) as response:
+                  result = json.load(response)
+              print('Registered command /' + result['name'])
+          except HTTPError as error:
+              sys.exit('Discord command registration failed; HTTP status ' + str(error.code))
+          except Exception:
+              sys.exit('Discord command registration failed. No secrets were printed.')
+          PY
