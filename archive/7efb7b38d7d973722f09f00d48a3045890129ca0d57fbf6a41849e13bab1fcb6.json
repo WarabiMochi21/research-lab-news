@@ -1,0 +1,56 @@
+{
+  "id": "7efb7b38d7d973722f09f00d48a3045890129ca0d57fbf6a41849e13bab1fcb6",
+  "headline_id": "abdfeedeb871f6410a92111dd9e2e2c3bcbb5841e6cefbceddf499a265e08560",
+  "title": "New Zealand Dollar Drops to Six-Year Low Against Greenback",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-dollar-drops-to-six-year-low-against-greenback",
+  "description": "The New Zealand dollar fell to a six-year low against the greenback, weighed down by a widening interest rate gap with the US and a dimmer outlook for the nation’s economy.",
+  "published": "2026-11-17T02:46:47+00:00",
+  "publisher": "Bloomberg Markets",
+  "primary": false,
+  "score": 3,
+  "retrieved": "2026-11-17T03:25:16.769087+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**New Zealand Dollar Falls to Six-Year Low Against US Dollar**\nBased on the provided RSS data, the New Zealand dollar dropped to a six-year low against the greenback. This move was reportedly driven by a widening interest rate gap with the US and a dimmer outlook for New Zealand's economy. This is based on a single source, and the full article was not read. Specific numerical details, exact dates, quotes, and projections are not available in the source text. This represents a single source and is not an independent confirmation.\n\n**Draft caption Canva**\nReported Facts: - The New Zealand dollar fell to a six-year low against the greenback. - Factors cited include a widening interest rate gap with the US and a dimmer outlook for the nation's economy. Items to Verify: - Exact extent of the interest rate gap and specific economic indicators. - Broader market impacts and context beyond this single source report. Note: This information is derived solely from an RSS headline and description; the full article was not fetched. This is a single source and lacks independent confirmation. No investment recommendations or additional figures are provided.",
+        "color": 4486642,
+        "url": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-dollar-drops-to-six-year-low-against-greenback",
+        "timestamp": "2026-11-17T02:46:47+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "Bloomberg Markets",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-17T02:46:47+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-dollar-drops-to-six-year-low-against-greenback"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://7efb7b38d7d973722f09f00d48a3045890129ca0d57fbf6a41849e13bab1fcb6.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "7efb7b38d7d973722f09f00d48a3045890129ca0d57fbf6a41849e13bab1fcb6.png"
+}
