@@ -1,0 +1,56 @@
+{
+  "id": "a13324aeb1a80c369493ee5de60f572d5c0ba2751eb944e28a73b443a78841e6",
+  "headline_id": "c0ed1394e86251987975c2ed2140fff427d190453f6ecf86b54a255d0b6e0022",
+  "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+  "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_campaign=rss&at_medium=RSS",
+  "description": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+  "published": "2026-11-17T01:49:26+00:00",
+  "publisher": "BBC Business",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-17T02:33:53.583145+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Nvidia Dismisses 'Bring Jensen Back' Campaign As Trump Backs Effort**\nAccording to BBC Business, Nvidia has dismissed a 'Bring Jensen Back' campaign, while a number of tech figures and Trump have backed an effort asking the AI chip giant to reinstate its ex CEO, Jensen Huang. Evidence is based solely on the RSS description; the full article was not fetched. This is a single source and not an independent confirmation.\n\n**Draft caption Canva**\nReported Facts: - Nvidia has dismissed the 'Bring Jensen Back' campaign. - A number of tech figures and Trump have backed an effort asking Nvidia to give Jensen Huang his job back as CEO. Things to Verify: - The exact motives and formal statements from Nvidia leadership regarding the campaign. - Details on the scope and nature of Trump's and tech figures' backing. - Full context from the complete BBC Business article. Note: This is based on a single RSS source and is not an independent confirmation. Full article not fetched.",
+        "color": 4486642,
+        "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_campaign=rss&at_medium=RSS",
+        "timestamp": "2026-11-17T01:49:26+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "BBC Business",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-17T01:49:26+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_campaign=rss&at_medium=RSS"
+          }
+        ],
+        "footer": {
+          "text": "DRAFT AI — perlu pemeriksaan editorial"
+        },
+        "image": {
+          "url": "attachment://a13324aeb1a80c369493ee5de60f572d5c0ba2751eb944e28a73b443a78841e6.png"
+        }
+      }
+    ]
+  },
+  "ai_used": true,
+  "image_file": "a13324aeb1a80c369493ee5de60f572d5c0ba2751eb944e28a73b443a78841e6.png"
+}
