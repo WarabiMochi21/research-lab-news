@@ -20,18 +20,17 @@ def font(size, bold=False):
     raise RuntimeError('Card font unavailable; install DejaVu Sans.')
 
 def wrap(draw, text, face, width):
+    """Wrap at word boundaries; never split a word."""
     lines, line = [], ''
     for word in str(text).split():
-        for char in word:
-            candidate = line + char
-            if draw.textlength(candidate, font=face) > width and line:
-                lines.append(line.rstrip())
-                line = char
-            else:
-                line = candidate
-        line += ' '
-    if line.strip():
-        lines.append(line.rstrip())
+        candidate = (line + ' ' + word) if line else word
+        if line and draw.textlength(candidate, font=face) > width:
+            lines.append(line)
+            line = word
+        else:
+            line = candidate
+    if line:
+        lines.append(line)
     return lines
 
 def block(draw, text, box, size, minimum, color, bold=False):
@@ -40,7 +39,7 @@ def block(draw, text, box, size, minimum, color, bold=False):
         face = font(point, bold)
         lines = wrap(draw, text, face, width)
         step = int(point * 1.4)
-        if len(lines) * step <= height:
+        if len(lines) * step <= height and all(draw.textlength(line, font=face) <= width for line in lines):
             for line in lines:
                 draw.text((x, y), line, font=face, fill=color)
                 y += step
@@ -136,3 +135,4 @@ def post_image(url, payload, path):
     request = Request(url, data=b''.join(parts), headers={'Content-Type': 'multipart/form-data; boundary=' + boundary, 'User-Agent': 'ResearchLabNews/2.0'})
     with urlopen(request, timeout=35) as response:
         return json.loads(response.read(3000000))
+
