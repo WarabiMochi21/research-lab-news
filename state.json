@@ -192,8 +192,10 @@
     },
     "d3960d9a3ac37feefe220041ee60e1c9e405c5ce57883ec9f59ed8982b286a08": {
       "headline_id": "d0e8c4a8b53e74559a3dca91cd020062c587feff077562435f8491e3ac0746d2",
-      "status": "pending",
-      "attempted_at": "2026-11-17T01:37:23.348964+00:00"
+      "status": "sent",
+      "attempted_at": "2026-11-17T01:37:23.348964+00:00",
+      "message_id": "1572063076902244403",
+      "sent_at": "2026-11-17T01:37:25.692459+00:00"
     }
   }
 }
