@@ -83,10 +83,35 @@ def publish(row):
     receipt=bot.deliver(url,payload)
     bridge('complete',{'id':claimed['id'],'revision':claimed['revision'],'message_id':receipt})
 
+def collect_news():
+    import bot
+    import hashlib
+    config=json.loads((bot.ROOT/'config.json').read_text(encoding='utf-8'))
+    items=[]
+    ok=0
+    for feed in config['feeds']:
+        try:
+            items.extend(bot.parse_feed(bot.http(feed['url']),feed,config))
+            ok+=1
+        except Exception:
+            print('Feed unavailable:',feed['name'])
+    if not ok: raise RuntimeError('All feeds failed')
+    config=dict(config,max_posts_per_run=100,max_posts_per_day=100)
+    selected=bot.select_items(items,{'items':{}},config)
+    added=0
+    for item in selected:
+        key='rss-'+hashlib.sha256(item['url'].encode()).hexdigest()
+        result=bridge('drafts',{'id_key':key,'title':item['title'],'sources':[{'url':item['url'],'notes':item['title']+'\n'+item.get('description','')+'\nEvidence limitation: RSS headline and description only; full article not read.','publisher':item['publisher'],'published':item['published']}]})
+        if result.get('created'): added+=1
+        if result.get('daily_cap') or added>=3: break
+    print('Automatic news drafts added:',added)
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--publish',action='store_true')
+    parser.add_argument('--collect',action='store_true')
     args=parser.parse_args()
+    if args.collect: collect_news()
     rows=bridge('queue').get('results',[])
     processed=published=failed=0
     for row in rows:
