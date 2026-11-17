@@ -7,7 +7,7 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: '11,26,41,56 * * * *'
+    - cron: '2-57/5 * * * *'
 permissions:
   contents: read
 concurrency:
@@ -40,3 +40,4 @@ jobs:
           if [ "$PUBLISH" = 'true' ]; then args+=(--publish); fi
           if [ "$COLLECT" = 'true' ]; then args+=(--collect); fi
           python review_processor.py "${args[@]}"
+
