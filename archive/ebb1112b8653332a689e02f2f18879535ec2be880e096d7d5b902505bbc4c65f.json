@@ -1,0 +1,56 @@
+{
+  "id": "ebb1112b8653332a689e02f2f18879535ec2be880e096d7d5b902505bbc4c65f",
+  "headline_id": "7203aaad61bc63b65d95eb04359dbac1c1a9d711f815917d67acf7bf7e30900f",
+  "title": "Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia",
+  "url": "https://www.cnbc.com/investingclub/2026/11/16/eli-lilly-makes-a-deal-outside-obesity-plus-another-word-of-caution-on-nvidia.html",
+  "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+  "published": "2026-11-16T20:07:46+00:00",
+  "publisher": "CNBC Top News",
+  "primary": false,
+  "score": 2,
+  "retrieved": "2026-11-17T04:31:41.866907+00:00",
+  "evidence": "RSS headline and description; full article not fetched",
+  "payload": {
+    "username": "Research Lab News",
+    "allowed_mentions": {
+      "parse": []
+    },
+    "embeds": [
+      {
+        "title": "RESEARCH LAB | NEWS",
+        "description": "**Judul dari sumber**\nEli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia\n\n**Draft caption Canva (template, belum diringkas AI)**\nCNBC Top News menerbitkan berita berjudul: Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia. Baca sumber sebelum menambahkan angka, konteks, atau dampak pasar.",
+        "color": 4486642,
+        "url": "https://www.cnbc.com/investingclub/2026/11/16/eli-lilly-makes-a-deal-outside-obesity-plus-another-word-of-caution-on-nvidia.html",
+        "timestamp": "2026-11-16T20:07:46+00:00",
+        "fields": [
+          {
+            "name": "Sumber",
+            "value": "CNBC Top News",
+            "inline": true
+          },
+          {
+            "name": "Publikasi (UTC)",
+            "value": "2026-11-16T20:07:46+00:00",
+            "inline": true
+          },
+          {
+            "name": "Batas bukti",
+            "value": "Judul/deskripsi RSS dari satu penerbit. Tanggal publikasi bukan selalu tanggal peristiwa. Periksa artikel asli sebelum publikasi."
+          },
+          {
+            "name": "Artikel asli",
+            "value": "https://www.cnbc.com/investingclub/2026/11/16/eli-lilly-makes-a-deal-outside-obesity-plus-another-word-of-caution-on-nvidia.html"
+          }
+        ],
+        "footer": {
+          "text": "HEADLINE ALERT — mode tanpa API AI"
+        },
+        "image": {
+          "url": "attachment://ebb1112b8653332a689e02f2f18879535ec2be880e096d7d5b902505bbc4c65f.png"
+        }
+      }
+    ]
+  },
+  "ai_used": false,
+  "image_file": "ebb1112b8653332a689e02f2f18879535ec2be880e096d7d5b902505bbc4c65f.png"
+}
