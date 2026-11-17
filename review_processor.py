@@ -60,7 +60,16 @@ def research(row):
     entries = json.loads(row['inputs'])
     with ThreadPoolExecutor(max_workers=4) as pool:
         sources = list(pool.map(evidence, entries))
-    text, copy, report = build(sources, request_json, generate, field)
+    print('Research stage: generating report and copy', row['id'], flush=True)
+    for validation_attempt in range(2):
+        try:
+            text, copy, report = build(sources, request_json, generate, field)
+            break
+        except ValueError as error:
+            print('AI validation:', type(error).__name__, str(error)[:300], flush=True)
+            if validation_attempt == 1:
+                raise
+            print('Retrying research once; approval remains required.', flush=True)
     copy = {key: display_text(value) for key, value in copy.items()}
     # Freeze the exact poster bytes before review; image failure keeps the draft queued.
     from news_card import render_card
@@ -68,12 +77,14 @@ def research(row):
     from datetime import datetime, timezone
     first=json.loads(row['inputs'])[0]
     item={'title':copy['headline'],'description':copy['summary'], 'publisher':urlsplit(first['url']).hostname or 'Editorial sources', 'published':first.get('published') or datetime.now(timezone.utc).isoformat()}
+    print('Research stage: rendering poster', row['id'], flush=True)
     with tempfile.TemporaryDirectory() as folder:
         picture=render_card(item,copy,Path(folder)/'poster.png')
         target=Path(folder)/'poster.jpg'
         Image.open(picture).convert('RGB').save(target,'JPEG',quality=88,optimize=True)
         encoded=base64.b64encode(target.read_bytes()).decode()
     if len(encoded)>900000: raise RuntimeError('Poster exceeds storage limit; draft remains queued')
+    print('Research stage: saving review draft', row['id'], flush=True)
     bridge('ready',{'id':row['id'],'revision':row['revision'],'analysis':text,'image_b64':encoded,'report_text':report})
 
 def publish(row):
@@ -168,10 +179,16 @@ def main():
             print('Draft failed:',row['id'],'HTTP',error.code)
         except Exception as error:
             failed+=1
-            print('Draft failed:',row['id'],type(error).__name__)
+            print('Draft failed:',row['id'],type(error).__name__, flush=True)
+            if isinstance(error, ValueError):
+                print('Validation detail:', str(error)[:300], flush=True)
+            import traceback
+            for frame in traceback.extract_tb(error.__traceback__):
+                print('Failure location:', Path(frame.filename).name, 'line', frame.lineno, frame.name, flush=True)
     print(json.dumps({'attempted_research':processed,'attempted_publication':published,'failed':failed}))
     if failed or collection_failed: sys.exit(1)
 
 if __name__=='__main__': main()
+
 
 
